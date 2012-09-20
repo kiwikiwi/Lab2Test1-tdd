@@ -9,4 +9,4 @@ Feature: The student visits the home page
 
   Scenario: Find the correct date on the home page
     Given I am on the home page
-    Then I should see today's date
+    Then I should see todays date

@@ -16,3 +16,7 @@ end
 Then /^I should see a greeting message$/ do
   page.should have_content "Hello, Student"
 end
+
+Then /^I should see todays date$/ do
+  page.should have_selector "h2", content: Time.now.strftime("%d-%m-%Y")
+end

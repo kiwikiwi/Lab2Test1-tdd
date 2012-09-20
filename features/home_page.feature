@@ -3,6 +3,10 @@ Feature: The student visits the home page
   As a student
   I want to see the schedule of my group for today
 
-  Scenario: Visit the home page
+  Scenario: Greeting on the home page
     Given I am on the home page
-    Then should see a greeting message
+    Then I should see a greeting message
+
+  Scenario: Find the correct date on the home page
+    Given I am on the home page
+    Then I should see today's date

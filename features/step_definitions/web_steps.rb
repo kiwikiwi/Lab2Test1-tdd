@@ -13,6 +13,6 @@ Given /^I am on the home page$/ do
   visit "/"
 end
 
-Then /^should see a greeting message$/ do
+Then /^I should see a greeting message$/ do
   page.should have_content "Hello, Student"
 end

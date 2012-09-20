@@ -11,4 +11,5 @@ group :test do
   gem 'rspec'
   gem 'capybara'
   gem 'cucumber-sinatra'
+  gem 'cucumber'
 end

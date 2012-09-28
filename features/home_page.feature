@@ -10,3 +10,7 @@ Feature: The student visits the home page
   Scenario: Find the correct date on the home page
     Given I am on the home page
     Then I should see todays date
+
+  Scenario: Display the correct filename in the title bar
+    Given I opened the file "vasea.txt"
+    Then I should see "vasea.txt" in the title bar
